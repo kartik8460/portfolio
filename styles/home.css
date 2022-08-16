@@ -1,0 +1,40 @@
+.card-container {
+    height: 400px;
+    background: linear-gradient(to right, #776ef8, #8aeffd);
+    position: relative;
+    padding: 0 100px;
+}
+
+.my-card {
+    width: fit-content;
+    position: absolute;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+}
+
+.my-image {
+    padding-right: 25px;
+}
+
+.my-details {
+    padding: 0 50px;
+}
+
+.my-details h1 {
+    font-size: 50px;
+}
+
+.my-details h2, .my-details h3{
+    margin: 25px 0;
+}
+
+.my-details h3 span {
+    font-size: 30px;
+}

@@ -1,0 +1,56 @@
+.github {
+    vertical-align: middle;
+}
+
+.project-section {
+    padding: 25px 200px;
+}
+
+.project-heading {
+    display: inline-block;
+    width: fit-content;
+}
+
+.project-header .github {
+    float: right;
+    text-decoration: none;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 25px;
+    margin: 25px 0;
+}
+
+.project-card{
+    box-shadow: 5px 5px 5px 5px lightblue;
+    padding: 20px 20px;
+}
+
+.project-card .image {
+    padding: 20px 20px;
+    background-color: #f1f5f5;
+    border-radius: 20px;
+}
+
+.project-card .image img {
+    width: 100%;
+    height: 320px;
+}
+
+.project-card h3 {
+    margin: 20px 0;
+}
+
+.project-card a {
+    display: inline-block;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #776ef8;
+    vertical-align:text-top;
+    margin-left: 25px;
+}
